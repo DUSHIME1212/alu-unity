@@ -28,7 +28,4 @@ public class OptionsMenu : MonoBehaviour
         SceneManager.LoadScene(previousScene);
     }
 
-
-
-
 }

@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
         if (transform.position.y < minHeight)
         {
             transform.position = startPosition + new Vector3(0, 10f, 0);
-            rb.velocity = Vector3.zero;
+            rb.linearVelocity = Vector3.zero;
         }
     }
 }
